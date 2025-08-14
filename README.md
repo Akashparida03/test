@@ -35,8 +35,7 @@ int height = sizeButton.getSize().getHeight();
 int width = sizeButton.getSize().getWidth();
 System.out.println("Button Height is: " + height + " Button Width is: " + width);
 
-WebElement basicOption = driver.findElement(By.xpath("//*[@id='j_idt87:j_idt89']/div[2]"));
-basicOption.click();
+
 WebElement ajaxOption = driver.findElement(By.xpath("//*[@id='j_idt87:j_idt91']/span"));
 boolean ajaxStatus = ajaxOption.isSelected();
 System.out.println("Ajax CheckBox Status is: " + ajaxStatus);
